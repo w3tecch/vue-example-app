@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
 import Noty from 'noty';
-import { AxiosInstance } from "axios";
+import { AxiosInstance } from 'axios';
 
 
 declare module 'vue/types/vue' {
