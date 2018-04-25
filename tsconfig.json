@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es2015",
+    "module": "esnext",
     "strict": true,
     "jsx": "preserve",
+    "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
     "sourceMap": true,
+    "pretty": true,
     "baseUrl": ".",
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "types": [
       "node",
       "jest"
