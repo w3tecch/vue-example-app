@@ -10,10 +10,13 @@
 import Vuex from 'vuex';
 import createLogger from 'vuex/dist/logger';
 
+import { GithubState, github } from './github';
+
 /**
  * Define your Store here
  */
 export interface Store {
+  github: GithubState;
   // TODO: Add your module states here
 }
 
@@ -24,6 +27,7 @@ export const store = new Vuex.Store<Store>({
    * Assign the modules to the store.
    */
   modules: {
+    github: github as any,
     // TODO: Add your module states here
   },
 

@@ -11,7 +11,7 @@ export const routes: RouteConfig[] = [
     },
   },
   {
-    path: '/',
+    path: '/about',
     name: 'about',
     component: () => import('@/pages/About.vue'),
     meta: {

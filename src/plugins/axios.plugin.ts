@@ -17,8 +17,8 @@ import { appConfig } from '@/config/app.config';
 import { store } from '@/store';
 
 Axios.defaults.baseURL = appConfig.apiPath;
-Axios.defaults.headers.common.Accept = 'application/json';
-Axios.defaults.headers.common.ContentType = 'application/json';
+// Axios.defaults.headers.common.Accept = 'application/json';
+// Axios.defaults.headers.common.ContentType = 'application/json';
 Axios.interceptors.response.use(
   (response) => response,
   (error) => {
