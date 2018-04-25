@@ -11,12 +11,13 @@
   <a href="https://travis-ci.org/w3tecch/vue-example-app">
     <img src="https://travis-ci.org/w3tecch/vue-example-app.svg?branch=master" alt="travis" />
   </a>
-  <a href="https://ci.appveyor.com/project/dweber019/vue-example-app/branch/master">
-    <img src="https://ci.appveyor.com/api/projects/status/f8e7jdm8v58hcwpq/branch/master?svg=true&passingText=Windows%20passing&pendingText=Windows%20pending&failingText=Windows%20failing" alt="appveyor" />
+  <a href="https://ci.appveyor.com/project/hirsch88/vue-example-app/branch/master">
+    <img src="https://ci.appveyor.com/api/projects/status/s43nfc2n01iuqpul/branch/master?svg=true" alt="appveyor" />
   </a>
   <a href="https://stackshare.io/hirsch88/vue-example-app">
     <img src="https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat" alt="StackShare" />
   </a>
+
 </p>
 
 <p align="center">
