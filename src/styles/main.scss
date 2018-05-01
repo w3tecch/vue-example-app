@@ -3,13 +3,12 @@
 /**
  * Third-pary libraries and fonts
  */
-@import "node_modules/bootstrap/scss/functions";
-@import "variables";
-@import "node_modules/bootstrap/scss/mixins";
+@import "bs-variables";
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import "~noty/src/noty.scss";
 @import "~noty/src/themes/relax.scss";
 
 /**
- * Third-party libraries and fonts
+ * Custom scss
  */
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import "variables";
