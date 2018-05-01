@@ -13,8 +13,8 @@ import Vue, { PluginFunction, PluginObject } from 'vue';
 
 import Axios from 'axios';
 
+import { store } from '@/app/store';
 import { appConfig } from '@/config/app.config';
-import { store } from '@/store';
 
 Axios.defaults.baseURL = appConfig.apiPath;
 // Axios.defaults.headers.common.Accept = 'application/json';

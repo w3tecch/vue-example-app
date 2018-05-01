@@ -6,6 +6,7 @@
     "ducksoupdev.vue2",
     "prograhammer.tslint-vue",
     "ecmel.vscode-html-css",
-    "shinnn.stylelint"
+    "shinnn.stylelint",
+    "mike-co.import-sorter"
 	]
 }

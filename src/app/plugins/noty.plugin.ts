@@ -12,7 +12,7 @@ import { PluginObject, PluginFunction } from 'vue';
 
 import Noty from 'noty';
 
-import { i18n } from '@/plugins/i18n.plugin';
+import { i18n } from '@/app/plugins/i18n.plugin';
 
 export const NotyPlugin: PluginObject<any> = {
   install(VueInstance, options: { i18n: any }): void {

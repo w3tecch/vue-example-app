@@ -4,7 +4,7 @@ export const routes: RouteConfig[] = [
   {
     path: '/',
     name: 'home',
-    component: () => import('@/pages/Home.vue'),
+    component: () => import('@/app/pages/Home.vue'),
     meta: {
       requiresAuth: false,
       guest: false,
@@ -13,7 +13,7 @@ export const routes: RouteConfig[] = [
   {
     path: '/about',
     name: 'about',
-    component: () => import('@/pages/About.vue'),
+    component: () => import('@/app/pages/About.vue'),
     meta: {
       requiresAuth: false,
       guest: false,
