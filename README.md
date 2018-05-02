@@ -67,7 +67,7 @@ Then copy the `.env.example` file and rename it to `.env`.
 Go to the project dir and start your app with this npm script.
 
 ```bash
-yarn start serve
+yarn start -- serve
 ```
 
 ![divider](./w3tec-divider.png)
