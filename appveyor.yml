@@ -6,4 +6,4 @@ install:
   - yarn install
 
 build_script:
-  - yarn build
+  - yarn start build
