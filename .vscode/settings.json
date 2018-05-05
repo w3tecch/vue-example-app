@@ -1,5 +1,22 @@
 {
   "importSorter.generalConfiguration.exclude": [
-    ".*"
-  ]
+    "index.ts",
+    "plugins/*"
+  ],
+  "importSorter.sortConfiguration.customOrderingRules.rules": [
+    {
+      "regex": "^vue",
+      "orderLevel": 0,
+      "numberOfEmptyLinesAfterGroup": 1,
+      "type": "path"
+    },
+    {
+      "regex": "^.(?!\.\/)",
+      "orderLevel": 10
+    },
+    {
+      "regex": "^@|^\.\/",
+      "orderLevel": 20
+    }
+  ],
 }
