@@ -1,14 +1,14 @@
-@charset "UTF-8";
+@charset 'UTF-8';
 
 /**
  * Third-pary libraries and fonts
  */
-@import "bs-variables";
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
-@import "~noty/src/noty.scss";
-@import "~noty/src/themes/relax.scss";
+@import 'bs-variables';
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~noty/src/noty.scss';
+@import '~noty/src/themes/relax.scss';
 
 /**
  * Custom scss
  */
-@import "variables";
+@import 'variables';
