@@ -7,25 +7,10 @@ const { ifWindows } = require('nps-utils');
 module.exports = {
   scripts: {
     default: 'build',
-    serve: ifWindows(
-      '.\\node_modules\\.bin\\vue-cli-service serve --open',
-      './node_modules/.bin/vue-cli-service serve --open'
-    ),
-    build: ifWindows(
-      '.\\node_modules\\.bin\\vue-cli-service build',
-      './node_modules/.bin/vue-cli-service build'
-    ),
-    test: ifWindows(
-      '.\\node_modules\\.bin\\vue-cli-service test',
-      './node_modules/.bin/vue-cli-service test'
-    ),
-    e2e: ifWindows(
-      '.\\node_modules\\.bin\\vue-cli-service e2e',
-      './node_modules/.bin/vue-cli-service e2e',
-    ),
-    lint: ifWindows(
-      '.\\node_modules\\.bin\\vue-cli-service lint',
-      './node_modules/.bin/vue-cli-service lint'
-    )
+    serve: 'vue-cli-service serve --open',
+    build: 'vue-cli-service build',
+    test: 'vue-cli-service test',
+    e2e: 'vue-cli-service e2e',
+    lint: 'vue-cli-service lint'
   }
 };
