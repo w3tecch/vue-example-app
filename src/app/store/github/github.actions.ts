@@ -1,7 +1,7 @@
 import { Contributor } from './../../models/Contributor';
 import { ActionContext, ActionTree } from 'vuex';
 
-import * as githubApi from '@/services/api/github.api';
+import * as githubApi from '@/app/services/api/github.api';
 import * as mutationTypes from './github.mutations.types';
 import { GithubState } from './github.state';
 
