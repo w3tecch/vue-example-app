@@ -12,7 +12,7 @@ import VeeValidate, { Validator } from 'vee-validate';
 import de from 'vee-validate/dist/locale/de';
 import en from 'vee-validate/dist/locale/en';
 
-import { i18n } from '@/plugins/i18n.plugin';
+import { i18n } from '@/app/plugins/i18n.plugin';
 
 Vue.use(VeeValidate, {
   dictionary: { en, de },

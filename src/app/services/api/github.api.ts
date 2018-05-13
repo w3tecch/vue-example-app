@@ -2,7 +2,7 @@ import Vue from 'vue';
 
 import { plainToClass } from 'class-transformer';
 
-import { Contributor } from '@/models/Contributor';
+import { Contributor } from '@/app/models/Contributor';
 
 /**
  * @name getContributors

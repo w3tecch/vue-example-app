@@ -56,7 +56,7 @@
     "node-sass": "^4.7.2",
     "nps": "^5.9.0",
     "nps-utils": "^1.5.0",
-    "sass-loader": "^6.0.6",
+    "sass-loader": "^7.0.1",
     "ts-jest": "^22.0.1",
     "vue-template-compiler": "^2.5.13"
   },
